@@ -1,0 +1,6 @@
+kişiler=[]
+
+for i in range(10):
+    adsoyad=input("kullanıcı adı giriniz")
+    kişiler.append(adsoyad)
+print(kişiler)

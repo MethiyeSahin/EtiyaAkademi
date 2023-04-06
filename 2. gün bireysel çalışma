@@ -1,0 +1,12 @@
+vize = int(input("Vize notunuzu giriniz: "))
+final = int(input("Final notunuzu giriniz: "))
+ortalama = (vize * 0.4) + (final * 0.6) 
+
+if final<40:
+    print("kullanıcı kaldı")
+elif ortalama<50:
+    print("Kullanıcı kaldı")
+elif vize==(final*2):
+   print("Kullanıcı kaldı")
+else:
+ print ("Kullanıcı geçti")
